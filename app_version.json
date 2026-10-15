@@ -1,13 +1,12 @@
 {
-  "latest_version": "v2.0",
-  "latest_build": 2,
-  "min_supported_build": 1,
+  "latest_version": "2.0.3",
+  "latest_build": 3,
+  "min_supported_build": 2,
   "build_type": "PRODUCTION",
   "download_url": "https://raw.githubusercontent.com/alok0248/swipping_clock_apk/main/app-release.apk",
   "changelog": [
-    "Sweeping Clock v2.0 production release",
-    "Analog clock with sweeping second hand, live wallpaper, home screen widget and screensaver",
-    "Signed with a consistent production upload key",
+    "Sweeping Clock 2.0.3 release",
+    "Build 3 signed with the production upload key",
     "No permissions, no ads, no analytics - fully offline app"
   ]
 }
