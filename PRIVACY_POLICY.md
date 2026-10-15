@@ -2,7 +2,7 @@
 
 **Effective Date:** October 15, 2026
 **Last Updated:** October 15, 2026
-**Hosted URL (for Google Play):** https://alok0248.github.io/privacy/
+**Hosted URL (for Google Play):** https://alok0248.github.io/sweeping_clock/privacy/
 
 **Sweeping Clock** ("we", "our", or "us") respects your privacy. This Privacy Policy explains how our Android application, **Sweeping Clock** (including the Live Wallpaper, Home Screen Widget, and Screen Saver features), handles information when you use it.
 
