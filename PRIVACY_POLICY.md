@@ -10,7 +10,7 @@
 
 ## 1. Summary
 
-**Sweeping Clock does NOT collect, transmit, or share any personal data.** The app works completely offline: it does not even request the Android `INTERNET` permission, so it cannot send information over the network.
+**Sweeping Clock does NOT collect, transmit, or share any personal data.** The app works completely offline: it does not even request the Android `INTERNET` permission, so it cannot send information over the network. The app has **no user accounts, servers, or subscriptions** — there is nothing to sign in to and no data held by us.
 
 ---
 
@@ -30,7 +30,7 @@ Sweeping Clock declares **no Android permissions** in its manifest — no storag
 
 ## 4. Third-Party Services
 
-The app contains **no third-party advertising, analytics, or tracking services** (no Google AdMob, Google Analytics, or Firebase Analytics data collection). The app makes no network requests of any kind.
+The app contains **no third-party advertising, analytics, or tracking services** (no Google AdMob, Google Analytics, or Firebase Analytics data collection). The app makes no network requests of any kind. It does bundle standard open-source libraries for its user interface and local storage; none of these libraries collect, transmit, or share any data.
 
 ---
 

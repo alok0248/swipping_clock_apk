@@ -38,7 +38,7 @@ Every published build is also tagged (`v2.0`, `v2.1`, …) on this repository.
 
 A beautiful, premium customizable analog clock with a smooth sweeping second hand, multiple interactive presets, rich haptic options, a live wallpaper, a home-screen widget and a screensaver. The app is fully offline: **no permissions, no ads, no analytics — no data ever leaves your device.**
 
-- **Privacy Policy:** https://alok0248.github.io/privacy/
+- **Privacy Policy:** https://alok0248.github.io/swipping_clock/privacy/
 - **Privacy policy file in this repo:** [PRIVACY_POLICY.html](PRIVACY_POLICY.html) · [PRIVACY_POLICY.md](PRIVACY_POLICY.md)
 - **Source code:** https://github.com/alok0248/swipping-clock (private)
 
