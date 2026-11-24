@@ -41,6 +41,13 @@
             font-size: 0.95rem;
             margin-bottom: 24px;
         }
+        .highlight {
+            background-color: #fff7ed;
+            border-left: 4px solid #f59e0b;
+            padding: 14px 18px;
+            border-radius: 8px;
+            margin: 18px 0;
+        }
         .contact-box {
             background-color: #f1f5f9;
             padding: 16px 20px;
@@ -48,52 +55,101 @@
             border-left: 4px solid #3b82f6;
             margin-top: 20px;
         }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 12px 0;
+        }
+        th, td {
+            border: 1px solid #e2e8f0;
+            padding: 8px 10px;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+        th {
+            background-color: #f8fafc;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Privacy Policy for Sweeping Clock</h1>
-        <div class="date"><strong>Effective Date:</strong> October 15, 2026 | <strong>Last Updated:</strong> October 15, 2026</div>
+        <div class="date"><strong>Effective Date:</strong> November 24, 2026 | <strong>Last Updated:</strong> November 24, 2026</div>
 
-        <p><strong>Sweeping Clock</strong> ("we", "our", or "us") respects your privacy. This Privacy Policy explains how our Android application, <strong>Sweeping Clock</strong> (including the Live Wallpaper, Home Screen Widget, and Screen Saver features), handles information when you use it.</p>
+        <p><strong>Sweeping Clock</strong> ("we", "our", or "us") respects your privacy. This Privacy Policy explains how our Android application, <strong>Sweeping Clock</strong> (package <code>com.aistudio.sweepingclock.kxmpzq</code>, including the Live Wallpaper, Home Screen Widget and Screen Saver features), handles information when you use it.</p>
 
         <h3>1. Summary</h3>
-        <p><strong>Sweeping Clock does NOT collect, transmit, or share any personal data.</strong> The app works completely offline: it does not even request the Android <code>INTERNET</code> permission, so it cannot send information over the network. The app has <strong>no user accounts, servers, or subscriptions</strong> — there is nothing to sign in to and no data held by us.</p>
-
-        <h3>2. Information We Collect</h3>
         <ul>
-            <li><strong>No Personal Information:</strong> We do not ask for or collect your name, email address, phone number, location, contacts, or device identifiers.</li>
-            <li><strong>No Usage Tracking:</strong> The app contains no analytics, crash reporters, advertising SDKs, or trackers of any kind.</li>
-            <li><strong>Local Customization Data Only:</strong> Your customizations (selected clock themes, hand styles, colors, presets, and preferred world-clock timezones) are stored in a local database (<code>Room</code>) inside the app's private storage <strong>on your device only</strong>. This data never leaves your device and is not accessible to us or to any third party.</li>
+            <li><strong>We do not collect personal information.</strong> The app has no accounts, no sign-in, and we never ask for your name, email address, phone number, contacts or precise location.</li>
+            <li><strong>Your settings stay on your device.</strong> Themes, hand styles, colours, presets and world-clock timezones are stored in a local database on your phone and are never sent to us.</li>
+            <li><strong>The app shows a banner ad.</strong> Ads are served by <strong>Google AdMob</strong>, which receives limited device and usage data in order to serve and measure them (see section 3).</li>
+            <li><strong>You control ad consent.</strong> Where the law requires it, a consent form is shown before any ad loads, and you can change your choice at any time inside the app.</li>
         </ul>
 
-        <h3>3. Permissions</h3>
-        <p>Sweeping Clock declares <strong>no Android permissions</strong> in its manifest — no storage, microphone, camera, location, phone, or internet permissions. Its features (home screen widget, live wallpaper, and screen saver) are standard Android components that the operating system binds to the app automatically; they require no permission prompts from you.</p>
+        <h3>2. Information the app itself handles</h3>
+        <table>
+            <tr><th>Data</th><th>Where it lives</th><th>Why</th></tr>
+            <tr>
+                <td>Clock settings, themes, hand styles, presets, chosen timezones</td>
+                <td>Local database on your device only</td>
+                <td>To remember your customisation</td>
+            </tr>
+            <tr>
+                <td>Your ad-consent choice</td>
+                <td>On your device, and with Google's consent service through the consent SDK</td>
+                <td>To respect your choice</td>
+            </tr>
+        </table>
+        <p>We operate no servers and hold no accounts, so there is no personal profile for us to look up, share or lose.</p>
 
-        <h3>4. Third-Party Services</h3>
-        <p>The app contains <strong>no third-party advertising, analytics, or tracking services</strong> (no Google AdMob, Google Analytics, or Firebase Analytics data collection). The app makes no network requests of any kind. It does bundle standard open-source libraries for its user interface and local storage; none of these libraries collect, transmit, or share any data.</p>
-
-        <h3>5. Data Storage, Backup, and Deletion</h3>
+        <h3>3. Advertising (Google AdMob)</h3>
+        <p>The app displays a <strong>banner advertisement</strong> supplied by <strong>Google AdMob (Google Mobile Ads SDK)</strong>. To select, deliver, measure and protect ads, Google's SDK collects and shares with Google:</p>
         <ul>
-            <li>All settings are stored locally in the app's private storage on your device.</li>
-            <li>Android's automatic backup may include this local app data in <strong>your own</strong> Google account backup, governed by your device backup settings. We never receive or can access that backup.</li>
-            <li><strong>To delete all data:</strong> use "Clear storage" for the app in Android Settings, or simply uninstall the app. This permanently removes all local settings and presets.</li>
+            <li><strong>Device and other identifiers</strong> &mdash; including the Android advertising ID and app set ID</li>
+            <li><strong>Approximate location</strong> &mdash; estimated from your IP address (not from GPS)</li>
+            <li><strong>App interactions</strong> &mdash; such as app launch, taps and video views</li>
+            <li><strong>Diagnostic and performance data</strong> &mdash; such as app launch time, hang rate and energy usage</li>
         </ul>
+        <p>This information is used for <strong>advertising, analytics and fraud prevention</strong>, and is encrypted in transit using TLS. We never receive your personal data from Google; we only see aggregate, anonymous performance reports. Google's own handling is described at <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a> and <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
 
-        <h3>6. Children's Privacy</h3>
-        <p>Sweeping Clock complies with the Children's Online Privacy Protection Act (COPPA) and Google Play's Families Policy. The app does not target children and does not collect personal information from children under 13 (or the local legal equivalent).</p>
+        <div class="highlight">
+            <strong>Your choices</strong>
+            <ul>
+                <li><strong>Consent:</strong> in the EEA, the UK, Switzerland and US states with applicable law, a consent message is presented before any ad is requested, and ads are not loaded until consent is resolved. You can reopen it in the app under <strong>Settings &rarr; About &amp; Privacy &rarr; Ad privacy options</strong>.</li>
+                <li><strong>Advertising ID:</strong> Android Settings &rarr; Privacy &rarr; Ads lets you delete or reset your advertising ID or opt out of personalised advertising.</li>
+                <li><strong>Where ads appear:</strong> only while the app screen is open. The home-screen widget, the live wallpaper and the screen saver contain no ads.</li>
+            </ul>
+            <p>The app is free because of this single banner ad.</p>
+        </div>
+
+        <h3>4. Permissions and why they exist</h3>
+        <table>
+            <tr><th>Permission</th><th>Purpose</th></tr>
+            <tr><td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td><td>Load the ad and check connectivity</td></tr>
+            <tr><td><code>com.google.android.gms.permission.AD_ID</code></td><td>The advertising identifier used by AdMob</td></tr>
+            <tr><td><code>SET_WALLPAPER</code></td><td>Set and render the live clock wallpaper</td></tr>
+            <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>Resume widget updates after the device restarts</td></tr>
+            <tr><td><code>WAKE_LOCK</code></td><td>Keep the display on while the app is used as a desk/nightstand clock</td></tr>
+        </table>
+
+        <h3>5. Children's Privacy</h3>
+        <p>Sweeping Clock is not directed at children under 13, and we do not knowingly collect personal information from children. The app's ad requests are not child-directed.</p>
+
+        <h3>6. Data Retention and Deletion</h3>
+        <p>We store no personal data on any server, so there is nothing for us to delete on your behalf. Local settings are removed when you clear the app's data or uninstall the app. To stop ad-related data collection, delete or reset your advertising ID in Android Settings, or uninstall the app.</p>
 
         <h3>7. Security</h3>
-        <p>Because all settings remain 100% local on your device, your information is protected by Android's native app sandboxing. No data is transmitted, so there is nothing to intercept.</p>
+        <p>Data collected by the advertising SDK is encrypted in transit with TLS. Your local settings are protected by Android's application sandbox.</p>
 
         <h3>8. Changes to This Privacy Policy</h3>
-        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date. We encourage you to review this page periodically.</p>
+        <p>If the app's data practices change, this page and the "Last Updated" date above will be updated before that change ships.</p>
 
         <h3>9. Contact Us</h3>
-        <p>If you have any questions, concerns, or requests about this Privacy Policy, contact us at:</p>
         <div class="contact-box">
-            <p><strong>Developer Contact:</strong> <a href="mailto:alok.AK639@gmail.com">alok.AK639@gmail.com</a><br>
-            <strong>Application Name:</strong> Sweeping Clock</p>
+            <strong>Developer contact:</strong> <a href="mailto:alok.AK639@gmail.com">alok.AK639@gmail.com</a><br>
+            <strong>Application name:</strong> Sweeping Clock<br>
+            <strong>Package name:</strong> <code>com.aistudio.sweepingclock.kxmpzq</code><br>
+            <strong>Privacy webpage:</strong> <a href="https://alok0248.github.io/sweeping_clock/privacy/">https://alok0248.github.io/sweeping_clock/privacy/</a>
         </div>
     </div>
 </body>
