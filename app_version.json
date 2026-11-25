@@ -1,12 +1,12 @@
 {
-  "latest_version": "v2.0.4",
-  "latest_build": 4,
+  "latest_version": "v2.0.5",
+  "latest_build": 6,
   "min_supported_build": 2,
   "build_type": "PRODUCTION",
   "download_url": "https://raw.githubusercontent.com/alok0248/swipping_clock_apk/main/app-release.apk",
   "changelog": [
-    "Sweeping Clock 2.0.4 release",
-    "Build 4 signed with the production upload key",
-    "No permissions, no ads, no analytics - fully offline app"
+    "Sweeping Clock 2.0.5 release",
+    "One small banner on the home screen (Google AdMob) keeps the app free",
+    "Database upgrades no longer reset your settings and presets"
   ]
 }

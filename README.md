@@ -2,7 +2,7 @@
 
 Public download repository for **Sweeping Clock** (package `com.aistudio.sweepingclock.kxmpzq`).
 
-![version](https://img.shields.io/badge/version-v2.0-blue) ![build](https://img.shields.io/badge/build-2-brightgreen) ![minSdk](https://img.shields.io/badge/minSdk-24-green)
+![version](https://img.shields.io/badge/version-v2.0.5-blue) ![build](https://img.shields.io/badge/build-6-brightgreen) ![minSdk](https://img.shields.io/badge/minSdk-24-green)
 
 ## Download
 
@@ -12,7 +12,7 @@ Public download repository for **Sweeping Clock** (package `com.aistudio.sweepin
 | Direct raw URL | `https://raw.githubusercontent.com/alok0248/swipping_clock_apk/main/app-release.apk` |
 | Release page | https://github.com/alok0248/swipping_clock_apk/releases |
 
-**Size:** ~15 MB &nbsp;|&nbsp; **Signature:** upload key SHA-256 `b5:21:c6:41:cc:3d:81:04:91:b8:e6:a9:75:e5:b3:4b:47:de:9e:23:ab:1f:22:75:96:f6:1f:7a:b1:68:f8:ca`
+**Size:** ~3.7 MB &nbsp;|&nbsp; **Signature:** upload key SHA-256 `b5:21:c6:41:cc:3d:81:04:91:b8:e6:a9:75:e5:b3:4b:47:de:9e:23:ab:1f:22:75:96:f6:1f:7a:b1:68:f8:ca`
 
 ### Install
 
@@ -26,8 +26,8 @@ Public download repository for **Sweeping Clock** (package `com.aistudio.sweepin
 
 ```json
 {
-  "latest_version": "v2.0",
-  "latest_build": 2,
+  "latest_version": "v2.0.5",
+  "latest_build": 6,
   "download_url": "https://raw.githubusercontent.com/alok0248/swipping_clock_apk/main/app-release.apk"
 }
 ```
@@ -36,7 +36,7 @@ Every published build is also tagged (`v2.0`, `v2.1`, …) on this repository.
 
 ## About the app
 
-A beautiful, premium customizable analog clock with a smooth sweeping second hand, multiple interactive presets, rich haptic options, a live wallpaper, a home-screen widget and a screensaver. The app is fully offline: **no permissions, no ads, no analytics — no data ever leaves your device.**
+A beautiful, premium customizable analog clock with a smooth sweeping second hand, multiple interactive presets, rich haptic options, a live wallpaper, a home-screen widget and a screensaver. **Everything except one banner on the home screen works fully offline** — no account, no analytics, no tracking. That banner is served by Google AdMob and is the only network request the app makes; the privacy policy describes what Google collects.
 
 - **Privacy Policy:** https://alok0248.github.io/sweeping_clock/privacy/
 - **Privacy policy file in this repo:** [PRIVACY_POLICY.html](PRIVACY_POLICY.html) · [PRIVACY_POLICY.md](PRIVACY_POLICY.md)
